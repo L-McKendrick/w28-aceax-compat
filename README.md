@@ -11,7 +11,7 @@
 </ul>
 <h2>Credits</h2>
 <ul>
-  <li><strong>GrueArbre</strong> for [ACE3 Arsenal Extended](https://steamcommunity.com/workshop/filedetails/?id=2522638637)</li>
+  <li><strong>GrueArbre</strong> for <a href="https://steamcommunity.com/workshop/filedetails/?id=2522638637">ACE3 Arsenal Extended</a>.</li>
   <li><strong>TubaHorse</strong>, who's work I referenced while making this.</li>
 </ul>
 <h2>Notes</h2>
@@ -19,4 +19,4 @@
   <li>I made this for myself and my friends. It may not be the cleanest implementation.</li>
   <li>Signed.</li>
 </ul>
-<p><a href="">Workshop Page</a></p>
+<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3521531791">Workshop Page</a></p>
