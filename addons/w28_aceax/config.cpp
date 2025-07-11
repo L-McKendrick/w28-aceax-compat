@@ -12,6 +12,9 @@ class CfgPatches
 };
 class XtdGearModels
 {
+    class CamoBase;
+    class SleevesBase;
+    
     class CfgWeapons
     {
         #include "models\vests.hpp"

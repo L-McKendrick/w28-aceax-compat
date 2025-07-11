@@ -3,12 +3,15 @@ class w35_V_tweed
     label = "[W35] Body Armor";
     options[] = { "camo", "ammo", "variant" };
 
-    class camo
+    class camo : CamoBase
     {
-        label = "Camo";
-        values[] = { "OCP", "Olive Drab", "Woodland" };
         alwaysSelectable = 1;
-        changeInGame = 0;
+	    class TAN;	class OD3 : TAN 
+        { 
+            label = "OD3"; 
+            description = "Olive Drab #3";
+        };
+        values[] = { "OCP", "OD3", "MCW" };
     };
 
     class ammo

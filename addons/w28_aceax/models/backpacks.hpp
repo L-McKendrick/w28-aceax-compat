@@ -1,15 +1,14 @@
+class BackpackCamoBase : CamoBase
+{
+	values[] = { "OCP", "OD", "CYT" };
+};
+
 class w28_B_wasser_molle
 {
 	label = "[W28] MOLLE Hydration 3L";
 	options[] = { "camo", "style" };
 
-	class camo
-	{
-		label = "Camo";
-		values[] = { "OCP", "Green", "Tan" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
-	};
+	class camo : BackpackCamoBase {};
 
 	class style
 	{
@@ -25,13 +24,7 @@ class w28_B_camel_thermos
 	label = "[W28] Camel Thermos Pack";
 	options[] = { "camo" };
 
-	class camo
-	{
-		label = "Camo";
-		values[] = { "OCP", "Green", "Tan" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
-	};
+	class camo : BackpackCamoBase {};
 };
 
 class w28_B_simc_asspack
@@ -47,12 +40,10 @@ class w28_B_simc_asspack
 		changeInGame = 0;
 	};
 
-	class camo
+
+	class camo : BackpackCamoBase 
 	{
 		label = "Hydro Pack Color";
-		values[] = { "OCP", "Green", "Tan" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
 	};
 
 	class position
@@ -77,12 +68,9 @@ class w28_B_simc_sturm
 		changeInGame = 0;
 	};
 
-	class camo
+	class camo : BackpackCamoBase 
 	{
 		label = "Hydro Pack Color";
-		values[] = { "OCP", "Green", "Tan" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
 	};
 
 	class equipment

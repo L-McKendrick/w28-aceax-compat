@@ -3,10 +3,10 @@ class w28_H_tweed_ihps
 	label = "[W28] IHPS";
 	options[] = { "camo", "top", "side" };
 
-	class camo
+	class camo : CamoBase
 	{
 		label = "Camo";
-		values[] = { "OCP", "Bare" };
+		values[] = { "OCP", "CYT" };
 		alwaysSelectable = 1;
 		changeInGame = 0;
 	};
@@ -85,13 +85,12 @@ class w28_H_tweed_ech
 class w28_H_tweed_fleece
 {
 	label = "[W28] Fleece Cap";
-	options[] = { "color" };
+	options[] = { "camo" };
 
-	class color
+	class camo : CamoBase
 	{
 		label = "Color";
-		values[] = { "Black", "Olive Drab" };
+		values[] = { "BLK", "OD" };
 		alwaysSelectable = 1;
-		changeInGame = 0;
 	};
 };

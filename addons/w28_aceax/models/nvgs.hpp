@@ -6,7 +6,7 @@ class w28_psq42
 	class camo
 	{
 		label = "Color";
-		values[] = { "Tan", "Black" };
+		values[] = { "TAN", "BLK" };
 		alwaysSelectable = 1;
 		changeInGame = 0;
 	};

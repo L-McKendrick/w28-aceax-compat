@@ -3,15 +3,15 @@ class w28_H_tweed_ihps_aceax
 	model = "w28_H_tweed_ihps";
 };
 
-// Bare
-class H_tweed_ihps_bare                    : w28_H_tweed_ihps_aceax { camo = "Bare"; top = "None";         side = "None"; };
-class H_tweed_ihps_g_bare                  : w28_H_tweed_ihps_aceax { camo = "Bare"; top = "ESS";          side = "None"; };
-class H_tweed_ihps_g_tasc_bare             : w28_H_tweed_ihps_aceax { camo = "Bare"; top = "ESS";          side = "Headset"; };
-class H_tweed_ihps_g_bare_rail             : w28_H_tweed_ihps_aceax { camo = "Bare"; top = "ESS";          side = "Rail"; };
-class H_tweed_ihps_g_bare_tasc_rail        : w28_H_tweed_ihps_aceax { camo = "Bare"; top = "ESS";          side = "Headset/Rail"; };
-class H_tweed_ihps_tasc_bare               : w28_H_tweed_ihps_aceax { camo = "Bare"; top = "None";         side = "Headset"; };
-class H_tweed_ihps_bare_rail               : w28_H_tweed_ihps_aceax { camo = "Bare"; top = "None";         side = "Rail"; };
-class H_tweed_ihps_bare_tasc_rail          : w28_H_tweed_ihps_aceax { camo = "Bare"; top = "None";         side = "Headset/Rail"; };
+// CYT
+class H_tweed_ihps_bare                    : w28_H_tweed_ihps_aceax { camo = "CYT"; top = "None";         side = "None"; };
+class H_tweed_ihps_g_bare                  : w28_H_tweed_ihps_aceax { camo = "CYT"; top = "ESS";          side = "None"; };
+class H_tweed_ihps_g_tasc_bare             : w28_H_tweed_ihps_aceax { camo = "CYT"; top = "ESS";          side = "Headset"; };
+class H_tweed_ihps_g_bare_rail             : w28_H_tweed_ihps_aceax { camo = "CYT"; top = "ESS";          side = "Rail"; };
+class H_tweed_ihps_g_bare_tasc_rail        : w28_H_tweed_ihps_aceax { camo = "CYT"; top = "ESS";          side = "Headset/Rail"; };
+class H_tweed_ihps_tasc_bare               : w28_H_tweed_ihps_aceax { camo = "CYT"; top = "None";         side = "Headset"; };
+class H_tweed_ihps_bare_rail               : w28_H_tweed_ihps_aceax { camo = "CYT"; top = "None";         side = "Rail"; };
+class H_tweed_ihps_bare_tasc_rail          : w28_H_tweed_ihps_aceax { camo = "CYT"; top = "None";         side = "Headset/Rail"; };
 
 // OCP
 class H_tweed_ihps_1                       : w28_H_tweed_ihps_aceax { camo = "OCP";  top = "None";         side = "None"; };
@@ -118,5 +118,5 @@ class w28_H_tweed_fleece_aceax
 	model = "w28_H_tweed_fleece";
 };
 
-class H_tweed_Hat_fleece                    : w28_H_tweed_fleece_aceax { color = "Black"; };
-class H_tweed_Hat_fleece_od3                  : w28_H_tweed_fleece_aceax { color = "Olive Drab"; };
+class H_tweed_Hat_fleece                    : w28_H_tweed_fleece_aceax { camo = "BLK"; };
+class H_tweed_Hat_fleece_od3                  : w28_H_tweed_fleece_aceax { camo = "OD"; };

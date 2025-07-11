@@ -11,12 +11,9 @@ class w28_U_tweed
 		changeInGame = 0;
 	};
 
-	class sleeve
+	class sleeve : SleevesBase
 	{
-		label = "Sleeves";
-		values[] = { "Full", "Cuff In", "Cuff Out" };
-		alwaysSelectable = 1;
-		changeInGame = 1;
+		values[] = { "Full", "Quarter", "Half" };
 	};
 
 	class flag

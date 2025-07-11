@@ -3,12 +3,9 @@ class w35_U_tweed
 	label = "[W35] Combat Set";
 	options[] = { "camo", "tucked", "kneepad", "sleeve" };
 
-	class camo
+	class camo : CamoBase
 	{
-		label = "Camouflage";
-		values[] = { "AOR1", "Multicam", "AOR2", "Woodland" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
+		values[] = { "AOR1", "MC", "AOR2", "MCW" };
 	};
 
 	class tucked
@@ -27,11 +24,8 @@ class w35_U_tweed
 		changeInGame = 0;
 	};
 
-	class sleeve
+	class sleeve : SleevesBase
 	{
-		label = "Sleeves";
-		values[] = { "Down", "Rolled" };
-		alwaysSelectable = 1;
-		changeInGame = 1;
+		values[] = { "Full", "Half" };
 	};
 };

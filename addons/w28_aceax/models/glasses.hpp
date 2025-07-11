@@ -1,15 +1,26 @@
+class GlovesCamoBase : CamoBase
+{
+	values[] = { "GRN", "TAN" };
+};
+
+class GlassesCamoBase : CamoBase
+{
+	label = "Color";
+	class ORN 
+	{ 
+		label = "Orange";
+		image = "#(rgb,8,8,3)color(0.5,0.16,0.04,1)";
+	};
+	class WHT;		class CLR : WHT { label = "Clear"; }
+	values[] = { "BLK", "BLU", "ORN", "CLR" };
+};
+
 class w28_G_Nomex
 {
 	label = "[W28] Nomex Gloves";
 	options[] = { "camo", "material", "fingertips", "cuff" };
 
-	class camo
-	{
-		label = "Color";
-		values[] = { "Green", "Tan" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
-	};
+	class camo : GlovesCamoBase {};
 
 	class material
 	{
@@ -41,13 +52,7 @@ class w28_G_oak
 	label = "[W28] Oakley Assault Gloves";
 	options[] = { "camo", "fingertips" };
 
-	class camo
-	{
-		label = "Color";
-		values[] = { "Green", "Tan" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
-	};
+	class camo : GlovesCamoBase {};
 
 	class fingertips
 	{
@@ -63,13 +68,7 @@ class w28_G_comba
 	label = "[W28] Combat Gloves";
 	options[] = { "camo", "fingertips" };
 
-	class camo
-	{
-		label = "Color";
-		values[] = { "Green", "Tan" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
-	};
+	class camo : GlovesCamoBase {};
 
 	class fingertips
 	{
@@ -85,13 +84,7 @@ class w28_G_tacticool
 	label = "[W28] Ballistic Glasses";
 	options[] = { "camo", "gloves", "headset" };
 
-	class camo
-	{
-		label = "Color";
-		values[] = { "Black", "Blue", "Orange", "Clear" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
-	};
+	class camo : GlassesCamoBase {};
 
 	class gloves
 	{
@@ -115,13 +108,7 @@ class w28_G_LEN_TG1
 	label = "[W28] Framed Glasses";
 	options[] = { "camo" };
 
-	class camo
-	{
-		label = "Color";
-		values[] = { "Black", "Blue", "Orange", "Clear" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
-	};
+	class camo : GlassesCamoBase {};
 };
 
 class w28_G_ESS
@@ -129,11 +116,5 @@ class w28_G_ESS
 	label = "[W28] ESS Goggles";
 	options[] = { "camo" };
 
-	class camo
-	{
-		label = "Color";
-		values[] = { "Green", "Tan" };
-		alwaysSelectable = 1;
-		changeInGame = 0;
-	};
+	class camo : GlovesCamoBase {};
 };
